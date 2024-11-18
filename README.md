@@ -34,7 +34,7 @@ DB_PASSWORD=
 
 ```
 
-### Commands to execute in shell
+### Generate application key
 ```shell
 $ php artisan key:generate
 ```
