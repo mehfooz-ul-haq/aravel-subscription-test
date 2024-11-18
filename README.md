@@ -16,7 +16,7 @@ $ sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX storage bootstrap/cac
 ```
 
 ### Application configuration
-update `.env` file for database connection and other configurations
+change `.env.example` to `.env` and update database connection and other required configurations
 
 ```shell
 APP_NAME=SubscriptionManagementSystem
